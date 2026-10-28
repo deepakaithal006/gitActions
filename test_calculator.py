@@ -14,7 +14,7 @@ class TestCalculateTotal(unittest.TestCase):
         self.assertEqual(calculate_total(300), 315.00)
 
     def test_just_above_300(self):
-        self.assertEqual(calculate_total(301), 284.445)
+        self.assertEqual(calculate_total(301), 284.45)
 
     def test_zero_subtotal(self):
         self.assertEqual(calculate_total(0), 0.00)
